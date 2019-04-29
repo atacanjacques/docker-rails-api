@@ -15,4 +15,4 @@ docker-compose down
 ```
 
 ## Source
-[Docker.com]([https://docs.docker.com/compose/rails/](https://docs.docker.com/compose/rails/))
+[Docker.com](https://docs.docker.com/compose/rails/)
