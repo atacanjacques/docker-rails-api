@@ -1,24 +1,18 @@
-# README
+## After cloning this repo
+```
+sudo chown -R $USER:$USER .
+docker-compose run web rails db:create
+```
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Run the app
+```
+docker-compose up
+```
 
-Things you may want to cover:
+## Stop the app
+```
+docker-compose down
+```
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Source
+[Docker.com]([https://docs.docker.com/compose/rails/](https://docs.docker.com/compose/rails/))
